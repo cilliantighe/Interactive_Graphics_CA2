@@ -1,8 +1,12 @@
+/*
+The code below is used to supress the scrollbars from being shown
+*/
+
 html, body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-#container{
+#container {
   margin: 0;
   padding: 0;
 }
