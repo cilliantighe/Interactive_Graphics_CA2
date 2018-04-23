@@ -42,7 +42,7 @@ function setup() {
   // Parameters are (_rad, _dis, _orb, _col)
   sun = new CelestialObject(sunRad, 0, 0, '#FFA803');
   // Parameters are (_amt, _level)
-  sun.spawnChildren(10, 1);
+  sun.spawnChildren(15, 1);
 }
 
 // The 'draw' function is called in a loop. Everything that is in the function is executed continuously
